@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Como Te Ven</string>
+
+    //MainActivity
+    <string name="elegirIngenieria">Elija su ingeniería!</string>
+    <string name="computacion">Computación</string>
+    <string name="title_activity_computacion">@string/como_te_ven</string>
+    <string name="como_te_ven">Como te ven...</string>
+    <string name="sonido">Sonido</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sonido">@string/como_te_ven</string>
+    <string name="como_te_ven_tus_amigos">Como te ven tus amigos</string>
+    <string name="como_te_ven_tus_padres">Como te ven tus padres</string>
+    <string name="como_te_ve_tu_novia">Como te ve tu novia</string>
+    <string name="como_te_ves_en_realidad">Como te ves en realidad</string>
+    <string name="title_activity_amigos_sonido">@string/como_te_ven_tus_amigos</string>
+    <string name="title_activity_amigos_computacion">@string/como_te_ven_tus_amigos</string>
+    <string name="title_activity_padres_computacion">@string/como_te_ven_tus_padres</string>
+    <string name="title_activity_padres_sonido">@string/como_te_ven_tus_padres</string>
+    <string name="title_activity_novia_computacion">@string/como_te_ve_tu_novia</string>
+    <string name="title_activity_novia_sonido">@string/como_te_ve_tu_novia</string>
+    <string name="title_activity_realidad_computacion">@string/como_te_ves_en_realidad</string>
+    <string name="title_activity_realidad_sonido">@string/como_te_ves_en_realidad</string>
+    <string name="regresar">Regresar</string>
+    <string name="tus_amigos">tus amigos</string>
+    <string name="tus_padres">tus padres</string>
+    <string name="tu_novia">tu novia</string>
+</resources>

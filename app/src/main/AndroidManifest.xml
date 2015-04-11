@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aplicacioningenieria.penadipierromereles.lp4.untref.aplicacionandroid" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AmigosComputacionActivity"
+            android:label="@string/title_activity_amigos_computacion"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".ComputacionActivity"
+            android:label="@string/title_activity_computacion"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".SonidoActivity"
+            android:label="@string/title_activity_sonido"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".AmigosSonidoActivity"
+            android:label="@string/title_activity_amigos_sonido"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".NoviaComputacionActivity"
+            android:label="@string/title_activity_novia_computacion"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".NoviaSonidoActivity"
+            android:label="@string/title_activity_novia_sonido"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".PadresComputacionActivity"
+            android:label="@string/title_activity_padres_computacion"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".PadresSonidoActivity"
+            android:label="@string/title_activity_padres_sonido"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".RealidadComputacionActivity"
+            android:label="@string/title_activity_realidad_computacion"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name=".RealidadSonidoActivity"
+            android:label="@string/title_activity_realidad_sonido"
+            android:noHistory="true">
+        </activity>
+    </application>
+
+</manifest>

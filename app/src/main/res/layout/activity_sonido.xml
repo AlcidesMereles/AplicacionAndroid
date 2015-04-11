@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="aplicacioningenieria.penadipierromereles.lp4.untref.aplicacionandroid.SonidoActivity"
+    android:background="@android:color/black">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="como te ves en realidad"
+        android:id="@+id/btnRealidad"
+        android:layout_below="@+id/btnNovia"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tus amigos"
+        android:id="@+id/btnAmigos"
+        android:layout_above="@+id/btnPadres"
+        android:layout_alignLeft="@+id/btnPadres"
+        android:layout_alignStart="@+id/btnPadres"
+        android:layout_alignRight="@+id/btnPadres"
+        android:layout_alignEnd="@+id/btnPadres" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tus padres"
+        android:id="@+id/btnPadres"
+        android:layout_above="@+id/btnNovia"
+        android:layout_alignLeft="@+id/btnNovia"
+        android:layout_alignStart="@+id/btnNovia"
+        android:layout_alignRight="@+id/btnNovia"
+        android:layout_alignEnd="@+id/btnNovia" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tu novia"
+        android:id="@+id/btnNovia"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnRealidad"
+        android:layout_alignStart="@+id/btnRealidad"
+        android:layout_alignRight="@+id/btnRealidad"
+        android:layout_alignEnd="@+id/btnRealidad" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="regresar"
+        android:id="@+id/btnRegresar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
