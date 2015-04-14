@@ -8,6 +8,7 @@ package aplicacioningenieria.penadipierromereles.lp4.untref.aplicacionandroid;
 
 
 public class AmigosComputacionActivity extends ActionBarActivity {
+    //Comentario de prueba de GitHub.
 
     private Button btnRegresar;
 
